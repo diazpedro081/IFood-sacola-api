@@ -7,5 +7,5 @@ import me.dio.sacola.model.Cliente;
 
 @Repository
 public interface ClienteRepository extends JpaRepository<Cliente, Long> {
-    
+
 }

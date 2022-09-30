@@ -6,5 +6,5 @@ import org.springframework.stereotype.Repository;
 import me.dio.sacola.model.Item;
 
 @Repository
-public interface ItemRepository extends JpaRepository<Item, Long>{
+public interface ItemRepository extends JpaRepository<Item, Long> {
 }

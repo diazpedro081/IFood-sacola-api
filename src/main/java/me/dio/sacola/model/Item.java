@@ -19,7 +19,7 @@ import lombok.NoArgsConstructor;
 @Builder
 @Data
 @Entity
-@JsonIgnoreProperties({ "hibernatedLazyInitializer", "handler" })
+@JsonIgnoreProperties({ "hibernateLazyInitializer", "handler" })
 @NoArgsConstructor
 public class Item {
     @Id
@@ -27,9 +27,8 @@ public class Item {
     private Long id;
     @OneToOne
     private Produto produto;
-    private int qunatidade;
+    private int quantidade;
     @ManyToOne
     @JsonIgnore
     private Sacola sacola;
-
 }

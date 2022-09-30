@@ -13,7 +13,10 @@ import lombok.NoArgsConstructor;
 @Embeddable
 @NoArgsConstructor
 public class ItemDto {
+
     private Long produtoId;
+
     private int quantidade;
-    private Long SacolaId;
+
+    private Long sacolaId;
 }

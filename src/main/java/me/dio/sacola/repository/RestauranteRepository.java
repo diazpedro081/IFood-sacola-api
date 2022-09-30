@@ -7,5 +7,5 @@ import me.dio.sacola.model.Restaurante;
 
 @Repository
 public interface RestauranteRepository extends JpaRepository<Restaurante, Long> {
-    
+
 }

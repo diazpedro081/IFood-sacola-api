@@ -21,7 +21,7 @@ import lombok.NoArgsConstructor;
 @Builder
 @Data
 @Entity
-@JsonIgnoreProperties({"hibernatedLazyInitializer", "handler"})
+@JsonIgnoreProperties({ "hibernatedLazyInitializer", "handler" })
 @NoArgsConstructor
 public class Restaurante {
     @Id
